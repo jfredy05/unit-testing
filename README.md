@@ -42,4 +42,8 @@ Comandos
 11. Pasar parametros en el test
     @pytest.mark.parametrize(...
 
+12. Definir una función principal de los pasos que se deben realizar antes de ejecutar cualquier prueba
+    @pytest.fixture
+    @pytest.fixture(scope='module')
+
 
